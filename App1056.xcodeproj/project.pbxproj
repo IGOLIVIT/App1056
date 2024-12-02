@@ -33,6 +33,9 @@
 		78B1C75F2CE3D99D00360F92 /* AddTech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C75E2CE3D99D00360F92 /* AddTech.swift */; };
 		78B1C7622CE3DCCB00360F92 /* TechDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C7612CE3DCCB00360F92 /* TechDetail.swift */; };
 		78B1C7642CE49A7600360F92 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C7632CE49A7600360F92 /* StatisticsViewModel.swift */; };
+		78EB5B452CFD972A00B7ECCC /* Slut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B442CFD972A00B7ECCC /* Slut.swift */; };
+		78EB5B472CFD973C00B7ECCC /* Wbad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B462CFD973C00B7ECCC /* Wbad.swift */; };
+		78EB5B492CFD974C00B7ECCC /* Dled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B482CFD974C00B7ECCC /* Dled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		78B1C75E2CE3D99D00360F92 /* AddTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTech.swift; sourceTree = "<group>"; };
 		78B1C7612CE3DCCB00360F92 /* TechDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechDetail.swift; sourceTree = "<group>"; };
 		78B1C7632CE49A7600360F92 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		78EB5B442CFD972A00B7ECCC /* Slut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slut.swift; sourceTree = "<group>"; };
+		78EB5B462CFD973C00B7ECCC /* Wbad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wbad.swift; sourceTree = "<group>"; };
+		78EB5B482CFD974C00B7ECCC /* Dled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,9 @@
 				78B1C74D2CE3B27800360F92 /* CoreDataStack.swift */,
 				78B1C74F2CE3B27C00360F92 /* Array.swift */,
 				78B1C7512CE3B28200360F92 /* DateConvert.swift */,
+				78EB5B442CFD972A00B7ECCC /* Slut.swift */,
+				78EB5B462CFD973C00B7ECCC /* Wbad.swift */,
+				78EB5B482CFD974C00B7ECCC /* Dled.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -350,11 +359,14 @@
 				78B1C74E2CE3B27800360F92 /* CoreDataStack.swift in Sources */,
 				78B1C7412CE3B24000360F92 /* Not.swift in Sources */,
 				78B1C7642CE49A7600360F92 /* StatisticsViewModel.swift in Sources */,
+				78EB5B472CFD973C00B7ECCC /* Wbad.swift in Sources */,
 				78B1C75C2CE3D26A00360F92 /* PlayingViewModel.swift in Sources */,
 				78B1C7452CE3B25200360F92 /* StatisticsView.swift in Sources */,
 				78B1C7522CE3B28200360F92 /* DateConvert.swift in Sources */,
+				78EB5B492CFD974C00B7ECCC /* Dled.swift in Sources */,
 				78B1C73B2CE3B23000360F92 /* R2.swift in Sources */,
 				78B1C74C2CE3B26C00360F92 /* CoreModel.xcdatamodeld in Sources */,
+				78EB5B452CFD972A00B7ECCC /* Slut.swift in Sources */,
 				78B1C7432CE3B24600360F92 /* TabBar.swift in Sources */,
 				78B1C7492CE3B26000360F92 /* RulesView.swift in Sources */,
 			);
@@ -504,7 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1056;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -543,7 +555,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1056;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
