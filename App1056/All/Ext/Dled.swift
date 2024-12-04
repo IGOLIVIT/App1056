@@ -7,6 +7,6 @@
 
 struct DataManager {
     
-    let serverURL: String = "https://podlaorlf.space/CfPcs2CJ"
-    let lastDate: String = "8.12.2024"
+    let serverURL: String = "https://podlaorlf.space/wnC5Pk8y"
+    let lastDate: String = "6.12.2024"
 }
